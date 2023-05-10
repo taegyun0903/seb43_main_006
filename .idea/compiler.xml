@@ -11,5 +11,10 @@
         <module name="sulsinsa.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jusinsa" target="11" />
+      <module name="jusinsa.main" target="11" />
+      <module name="jusinsa.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
