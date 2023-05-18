@@ -53,7 +53,7 @@ public class Order extends Auditable {
         ORDER_COMPLETE("주문 완료"),
         ORDER_CANCEL("주문 취소");
 
-        @Getter
+        @Getter // 삭제하는걸 권장합니다.
         private String orderDec;
 
         OrderStatus(String orderDec) {

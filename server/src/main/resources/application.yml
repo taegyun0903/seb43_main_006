@@ -105,8 +105,8 @@ jwt:
 
 cloud:
   aws:
-    credentials.access-key: ${S3_ACCESS_KEY}
-    credentials.secret-key: ${S3_SECRET_KEY}
-    s3.bucket: jusinsa.kr
+    credentials.access-key: AKIAW5A3TF4PZMEILIEF
+    credentials.secret-key: 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
+    s3.bucket: codepipeline-ap-northeast-2-434800846642
     region.static: ap-northeast-2
     stack.auto: false
