@@ -32,15 +32,15 @@ spring:
       client:
         registration:
           google:
-            clientId: ${G_CLIENT_ID}
-            clientSecret: ${G_CLIENT_SECRET}
+            clientId: 911444161086-3src60dn7goa37hqthsh1u1omvk5gil5.apps.googleusercontent.com
+            clientSecret: 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
             redirect-uri: https://040e-124-111-225-247.ngrok-free.app/login/oauth2/code/google # 이건 주소 바뀔때마다 수정해야함
             scope:
               - email
               - profile
           facebook:
-            client-id: ${F_CLIENT_ID}
-            client-secret: ${F_CLIENT_SECRET}
+            client-id: 597724608969543
+            client-secret: 6d078dc371efd36c1a99e4cc74d3b018
             scope:
               - email
               - public_profile
@@ -79,8 +79,8 @@ mail:
   smtp:
     host: smtp.gmail.com
     port: 587
-    username: ${EMAIL_USERNAME}  # 민감한 정보는 시스템 환경 변수로..
-    password: ${EMAIL_PASSWORD}  # 민감한 정보는 시스템 환경 변수로..
+    username: ku3026@gmail.com  # 민감한 정보는 시스템 환경 변수로..
+    password: fcsnjwkqwbmqbjbu  # 민감한 정보는 시스템 환경 변수로..
     auth: true
     starttls:
       enable: true
@@ -99,7 +99,7 @@ server:
 
 
 jwt:
-  key: ${JWT_SECRET_KEY}
+  key: kevin12341234123412341234123412341234123412341234123412341234
   access-token-expiration-minutes: 30 #30분.
   refresh-token-expiration-minutes: 420 # 420분
 
