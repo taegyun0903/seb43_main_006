@@ -1,7 +1,6 @@
 package com.codestates.julsinsa.order.controller;
 
 import com.codestates.julsinsa.order.dto.OrderPostDto;
-import com.codestates.julsinsa.order.dto.OrderResponseDto;
 import com.codestates.julsinsa.order.entity.Order;
 import com.codestates.julsinsa.order.mapper.OrderMapper;
 import com.codestates.julsinsa.order.service.OrderService;
@@ -24,6 +23,7 @@ public class OrderController {
     private final OrderService orderService;
     private final OrderMapper mapper;
 
+    @PostMapping
     public ResponseEntity postOrder(@RequestBody OrderPostDto orderPostDto) {
         Order order = orderService.createOrder(mapper.orderPostDtoToOrder(orderPostDto));
 

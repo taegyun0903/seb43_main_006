@@ -1,7 +1,7 @@
 package com.codestates.julsinsa.order.service;
 
-import com.codestates.julsinsa.exception.BusinessLogicException;
-import com.codestates.julsinsa.exception.ExceptionCode;
+import com.codestates.julsinsa.global.exception.BusinessLogicException;
+import com.codestates.julsinsa.global.exception.ExceptionCode;
 import com.codestates.julsinsa.member.entity.Member;
 import com.codestates.julsinsa.member.repository.MemberRepository;
 import com.codestates.julsinsa.order.dto.OrderResponseDto;
@@ -46,7 +46,6 @@ public class OrderService {
         List<Order> orders = orderRepository.findAllByMember(member);
 
 
-
         return orders;
     }
 
@@ -54,7 +53,7 @@ public class OrderService {
         Order order = findVerifiedOrder(orderId);
 
         order.setOrderStatus(Order.OrderStatus.ORDER_CANCEL);
-    }
+    };
 
     private Order findVerifiedOrder(Long orderId) {
         Optional<Order> optionalOrder = orderRepository.findById(orderId);
