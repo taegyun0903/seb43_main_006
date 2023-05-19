@@ -5,10 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="buildspec.yml 오류 수정 3">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/jusinsa.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/dto/OrderPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/dto/OrderResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/dto/PaymentRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/exception/ExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/service/MarketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/ItemOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/ItemOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +72,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -64,12 +89,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1684419290" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1684480938" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1684419289" />
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1684419290" />
                   </RecentBranch>
                 </list>
               </option>
@@ -109,6 +134,11 @@
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\taegy\\seb43_main_006\\client\\node_modules\\prettier",
     "spring.configuration.checksum": "56303272f1449dd02728e46f09884814",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -139,6 +169,19 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="jusinsa.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="jusinsa.test" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SulsinsaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sulsinsa.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codestates.sulsinsa.SulsinsaApplication" />
@@ -155,6 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.server [build]" />
         <item itemvalue="Gradle.server [build]" />
       </list>
     </recent_temporary>

@@ -110,10 +110,6 @@ INSERT INTO REVIEW_IMAGE (ITEM_IMAGE_ID, CREATED_AT, LAST_MODIFIED_AT, FILE_PATH
 VALUES (6, '2023-05-16 15:48:57.452174', '2023-05-16 15:48:57.452174', 'review/', '1684219737322_blackvelvet.png', 'black velvet.png', 4);
 
 
-INSERT INTO orders (CREATED_AT, LAST_MODIFIED_AT, NAME, ORDER_STATUS, PHONE, MARKET_ID, MEMBER_ID , is_Checked)
-VALUES
-    ('2023-05-16 15:46:58.400765', '2023-05-16 15:46:58.400765', '어드민', 'ORDER_REQUEST', '010-1234-5678', 1, 1, false),
-    ('2023-05-06 15:47:34.939605', '2023-05-06 15:47:34.939605', '어드민', 'ORDER_CONFIRM', '010-1234-5678', 2, 1 ,true);
 
 
 INSERT INTO  FAVORITE (favorite_id, item_id, member_id , is_Checked)
@@ -142,11 +138,3 @@ VALUES (100, 1,1,false),
        (123, 23,1,false);
 
 
-
-INSERT INTO item_order (quantity, order_id, item_id)
-VALUES (2, 1, 1),
-       (1, 1, 2),
-       (3, 1, 3),
-       (4, 2, 8),
-       (3, 2, 9),
-       (5, 2, 10);
