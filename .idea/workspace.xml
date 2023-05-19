@@ -5,43 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="buildspec.yml 오류 수정 3">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/review/controller/ReviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/advice/GlobalExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/advice/GlobalExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/audit/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/audit/Auditable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/filter/JwtVerificationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/filter/JwtVerificationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/handler/MemberAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/handler/MemberAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/handler/OAuth2MemberSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/handler/OAuth2MemberSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/userdetails/MemberDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/userdetails/MemberDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/utills/ErrorResponder.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/auth/utills/ErrorResponder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/cart/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/cart/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/cart/service/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/dto/MultiResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/dto/MultiResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/dto/PageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/dto/PageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/dto/SingleResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/dto/SingleResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/exception/BusinessLogicException.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/exception/BusinessLogicException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/exception/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/exception/ExceptionCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ReviewImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ReviewImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/chatai/config/ChatGptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/chatai/config/ChatGptConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/market/service/MarketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/mapper/MemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Favorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/repository/FavoriteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/repository/FavoriteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/response/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/review/entity/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/review/entity/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/review/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/review/service/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/utils/UriCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/global/utils/UriCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,11 +73,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1684480938" />
+                    <option name="lastUsedInstant" value="1684500223" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1684419290" />
+                    <option name="lastUsedInstant" value="1684500181" />
                   </RecentBranch>
                 </list>
               </option>
@@ -161,6 +130,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.server [build]">
+    <configuration name="server [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="server [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,6 +203,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.server [build]" />
+        <item itemvalue="Gradle.server [buildDependents]" />
         <item itemvalue="Gradle.server [build]" />
         <item itemvalue="Gradle.server [build]" />
         <item itemvalue="Gradle.server [build]" />
