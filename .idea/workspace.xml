@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="api 수정">
+    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="api 수정 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" afterDir="false" />
     </list>
@@ -210,7 +210,7 @@
       <updated>1684418426968</updated>
       <workItem from="1684418428425" duration="894000" />
       <workItem from="1684468568865" duration="100000" />
-      <workItem from="1684645238084" duration="6037000" />
+      <workItem from="1684645238084" duration="7454000" />
     </task>
     <task id="LOCAL-00001" summary="test 오류코드 삭제, appspec.yml, buildspec.yml 파일 위치이동,&#10;yml 파일 수정">
       <created>1684421616664</created>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684650408000</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="api 수정 2">
+      <created>1684651591239</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684651591239</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +298,7 @@
     <MESSAGE value="application.yml rds 적용실패로 백업" />
     <MESSAGE value="item crud 추가" />
     <MESSAGE value="api 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="api 수정" />
+    <MESSAGE value="api 수정 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="api 수정 2" />
   </component>
 </project>

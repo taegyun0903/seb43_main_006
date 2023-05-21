@@ -18,7 +18,7 @@ import javax.validation.constraints.Positive;
 import java.util.List;
 
 @RestController
-@RequestMapping("/alcohol")
+@RequestMapping("/items")
 @RequiredArgsConstructor
 @Validated
 public class ItemController {
@@ -132,7 +132,7 @@ public class ItemController {
         return new ResponseEntity<>(new SingleResponseDto<>(favoriteStatusDto),HttpStatus.OK);
     }
     // 특정 상품 상세 조회
-    @GetMapping("/detail/{item-id}")
+    @GetMapping("/item/{item-id}")
     public ResponseEntity detailItems (@PathVariable("item-id") @Positive long itemId, Item item) {
         item = itemService.detailItems(itemId);
         ItemDto.Response itemDtoResponse = mapper.itemToItemResponseDto(item);
