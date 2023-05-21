@@ -1,23 +1,16 @@
 package com.codestates.julsinsa.item.dto;
 
-import com.codestates.julsinsa.member.entity.Member;
-import com.codestates.julsinsa.review.dto.ReviewDto;
-import com.codestates.julsinsa.review.entity.Review;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.FetchType;
-import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ItemDto {
 
     @Getter
     @Setter
-    public static class Response{
+    public static class Response {
 
         private Long itemId;
         private String titleKor;
@@ -55,7 +48,7 @@ public class ItemDto {
 
     @Getter
     @Setter
-    public static class ItemsResponse{
+    public static class ItemsResponse {
         private Long itemId;
         private String titleKor;
         private int discountRate;
@@ -68,7 +61,6 @@ public class ItemDto {
 
         private double reviewRating;
     }
-
 
 
     @AllArgsConstructor
@@ -92,7 +84,26 @@ public class ItemDto {
     @Getter
     @Setter
     @AllArgsConstructor
-    public static class FavoriteStatusDto{
+    public static class FavoriteStatusDto {
         private boolean like;
+    }
+
+    @Getter
+    @Setter
+    public static class Post {
+        private String title_Kor;
+        private String title_Eng;
+        private String content;
+        private List<String> categories;
+        private int price;
+        private int capacity;
+        private int volume;
+        private String country;
+        private String aroma;
+        private String taste;
+        private String field;
+        private int discountRate;
+        private String profile;
+        private int quantity;
     }
 }

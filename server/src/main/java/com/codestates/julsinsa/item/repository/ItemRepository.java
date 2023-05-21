@@ -7,6 +7,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
+import java.util.Optional;
+
 public interface ItemRepository extends JpaRepository<Item,Long> {
 
     @Modifying
@@ -38,4 +40,9 @@ public interface ItemRepository extends JpaRepository<Item,Long> {
 //
 //    // 카테고리와 가격 내림차순으로 아이템 필터링
 //    Page<Item> findAllByCategoriesAndSortByPriceDesc(String category, Pageable pageable);
+
+    Optional<Item> findByTitleKor(String title_korName);
+
+
+    Optional<Item> findByItemId(Long id);
 }

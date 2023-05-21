@@ -3,6 +3,7 @@ package com.codestates.julsinsa.item.controller;
 import com.codestates.julsinsa.global.dto.MultiResponseDto;
 import com.codestates.julsinsa.global.dto.SingleResponseDto;
 import com.codestates.julsinsa.item.dto.ItemDto;
+import com.codestates.julsinsa.item.dto.ItemPatchDto;
 import com.codestates.julsinsa.item.entity.Item;
 import com.codestates.julsinsa.item.mapper.ItemMapper;
 import com.codestates.julsinsa.item.service.ItemService;
@@ -129,6 +130,37 @@ public class ItemController {
         ItemDto.FavoriteStatusDto favoriteStatusDto = itemService.checkFavoriteStatus(itemId);
 
         return new ResponseEntity<>(new SingleResponseDto<>(favoriteStatusDto),HttpStatus.OK);
+    }
+    // 특정 상품 상세 조회
+    @GetMapping("/item/{item-id}")
+    public ResponseEntity detailItems (@PathVariable("item-id") @Positive long itemId, Item item) {
+        item = itemService.detailItems(itemId);
+        ItemDto.Response itemDtoResponse = mapper.itemToItemResponseDto(item);
+        return new ResponseEntity(itemDtoResponse, HttpStatus.OK);
+    }
+    // 상품 정보 수정
+    @PatchMapping("/items{item-id}")
+    public ResponseEntity updateItem(@PathVariable("item-id") @Positive long itemId, Item item) {
+        item = itemService.detailItems(itemId);
+        ItemPatchDto.ItemPatch itemPatch = mapper.itemToItemPatchDto(item);
+        itemService.updateItem(itemPatch);
+        return new ResponseEntity(HttpStatus.OK);
+    }
+    // 상품 삭제
+    @DeleteMapping("/items{item-id}")
+    public ResponseEntity deleteItem(@PathVariable("item-id") @Positive long itemId, Item item) {
+
+        itemService.deleteItem(itemId);
+
+        return new ResponseEntity(HttpStatus.OK);
+
+    }
+    // 상품 등록
+    @PostMapping("/item")
+    public ResponseEntity postItem(@RequestBody ItemDto.Post requestBody) {
+        Item item = mapper.itemPostItem(requestBody);
+        Item createItem = itemService.createItem(item);
+        return new ResponseEntity(HttpStatus.OK);
     }
 
 }

@@ -3,6 +3,7 @@ package com.codestates.julsinsa.item.service;
 import com.codestates.julsinsa.global.exception.BusinessLogicException;
 import com.codestates.julsinsa.global.exception.ExceptionCode;
 import com.codestates.julsinsa.item.dto.ItemDto;
+import com.codestates.julsinsa.item.dto.ItemPatchDto;
 import com.codestates.julsinsa.item.entity.Favorite;
 import com.codestates.julsinsa.item.entity.Item;
 import com.codestates.julsinsa.item.repository.ItemRepository;
@@ -155,6 +156,51 @@ public class ItemService {
     public Item findVerifedItem(long itemId){
         Optional<Item> findByItem = itemRepository.findById(itemId);
         return findByItem.orElseThrow(() -> new BusinessLogicException(ExceptionCode.ITEM_NOT_FOUND));
+    }
+
+    // 특정 상품 상세 조회
+    public Item detailItems(Long id) {
+        Optional<Item> findItem=  itemRepository.findByItemId(id);
+        return findItem.orElseThrow();
+    }
+
+    // 상품 등록
+    public Item createItem(Item item) {
+        // 유저 로그인 확인 (진영님 감사해요)
+        String principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal().toString();
+        Optional<Member> findbyEmailMember = memberRepository.findByEmail(principal);
+        Member findmember = findbyEmailMember.orElseThrow(() -> new BusinessLogicException(ExceptionCode.MEMBER_EXISTS));
+
+        Optional<Item> existingItem = itemRepository.findByTitleKor(item.getTitleKor());
+        if (existingItem.isPresent()){
+            throw new IllegalArgumentException("이미 등록된 상품입니다."); // TODO : 에러페이지가 있는지 확인해봅시다.
+        } else {
+            return itemRepository.save(item);
+        }
+    }
+    // 상품 삭제
+    public void deleteItem(long itemId) {
+        Item item = findVerifedItem(itemId);
+        if (ExceptionCode.ITEM_NOT_FOUND.equals(item)) {
+            return;
+        }
+        itemRepository.deleteById(itemId);
+    }
+
+    //  상품 정보 수정
+    public Item updateItem(ItemPatchDto.ItemPatch itemPatchDto) {
+        Item findItem = findVerifedItem(itemPatchDto.getId());
+
+        Optional.ofNullable(itemPatchDto.getKorName())
+                .ifPresent(korName -> findItem.setTitleKor(itemPatchDto.getKorName()));
+        Optional.ofNullable(itemPatchDto.getEngName())
+                .ifPresent(engName ->findItem.setTitleEng(itemPatchDto.getEngName()));
+        Optional.ofNullable(itemPatchDto.getPrice())
+                .ifPresent(price -> findItem.setPrice(itemPatchDto.getPrice()));
+        Optional.ofNullable(itemPatchDto.getQuantity())
+                .ifPresent(quantity -> findItem.setQuantity(itemPatchDto.getQuantity()));
+
+        return itemRepository.save(findItem);
     }
 
 }
