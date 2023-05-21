@@ -18,7 +18,7 @@ import javax.validation.constraints.Positive;
 import java.util.List;
 
 @RestController
-@RequestMapping("/alcohol")
+@RequestMapping("/items")
 @RequiredArgsConstructor
 @Validated
 public class ItemController {
