@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="buildspec.yml 오류 수정 3">
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/chatai/config/ChatGptConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/chatai/config/ChatGptConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/entity/Favorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/repository/FavoriteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/repository/FavoriteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/order/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/jusinsa.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/jusinsa.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +69,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1684500223" />
+                    <option name="lastUsedInstant" value="1684645386" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1684500181" />
+                    <option name="lastUsedInstant" value="1684645290" />
                   </RecentBranch>
                 </list>
               </option>
@@ -174,19 +170,6 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="jusinsa.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="jusinsa.test" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SulsinsaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sulsinsa.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codestates.sulsinsa.SulsinsaApplication" />
@@ -206,7 +189,7 @@
         <item itemvalue="Gradle.server [build]" />
         <item itemvalue="Gradle.server [buildDependents]" />
         <item itemvalue="Gradle.server [build]" />
-        <item itemvalue="Gradle.server [build]" />
+        <item itemvalue="Gradle.server [buildDependents]" />
         <item itemvalue="Gradle.server [build]" />
       </list>
     </recent_temporary>
@@ -221,6 +204,7 @@
       <updated>1684418426968</updated>
       <workItem from="1684418428425" duration="894000" />
       <workItem from="1684468568865" duration="100000" />
+      <workItem from="1684645238084" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="test 오류코드 삭제, appspec.yml, buildspec.yml 파일 위치이동,&#10;yml 파일 수정">
       <created>1684421616664</created>
