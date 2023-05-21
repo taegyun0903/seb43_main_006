@@ -131,6 +131,8 @@ public class ItemController {
 
         return new ResponseEntity<>(new SingleResponseDto<>(favoriteStatusDto),HttpStatus.OK);
     }
+
+
     // 특정 상품 상세 조회
     @GetMapping("/item/{item-id}")
     public ResponseEntity detailItems (@PathVariable("item-id") @Positive long itemId, Item item) {
@@ -139,7 +141,7 @@ public class ItemController {
         return new ResponseEntity(itemDtoResponse, HttpStatus.OK);
     }
     // 상품 정보 수정
-    @PatchMapping("/items{item-id}")
+    @PatchMapping("/items/{item-id}")
     public ResponseEntity updateItem(@PathVariable("item-id") @Positive long itemId, Item item) {
         item = itemService.detailItems(itemId);
         ItemPatchDto.ItemPatch itemPatch = mapper.itemToItemPatchDto(item);
@@ -147,7 +149,7 @@ public class ItemController {
         return new ResponseEntity(HttpStatus.OK);
     }
     // 상품 삭제
-    @DeleteMapping("/items{item-id}")
+    @DeleteMapping("/items/{item-id}")
     public ResponseEntity deleteItem(@PathVariable("item-id") @Positive long itemId, Item item) {
 
         itemService.deleteItem(itemId);
@@ -162,5 +164,7 @@ public class ItemController {
         Item createItem = itemService.createItem(item);
         return new ResponseEntity(HttpStatus.OK);
     }
+
+
 
 }

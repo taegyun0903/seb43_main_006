@@ -158,6 +158,7 @@ public class ItemService {
         return findByItem.orElseThrow(() -> new BusinessLogicException(ExceptionCode.ITEM_NOT_FOUND));
     }
 
+
     // 특정 상품 상세 조회
     public Item detailItems(Long id) {
         Optional<Item> findItem=  itemRepository.findByItemId(id);
@@ -202,5 +203,4 @@ public class ItemService {
 
         return itemRepository.save(findItem);
     }
-
 }
