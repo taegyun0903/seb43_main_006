@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="api 수정 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="item crud 수정">
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/dto/ItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/item/service/ItemService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +209,7 @@
       <updated>1684418426968</updated>
       <workItem from="1684418428425" duration="894000" />
       <workItem from="1684468568865" duration="100000" />
-      <workItem from="1684645238084" duration="12223000" />
+      <workItem from="1684645238084" duration="13116000" />
     </task>
     <task id="LOCAL-00001" summary="test 오류코드 삭제, appspec.yml, buildspec.yml 파일 위치이동,&#10;yml 파일 수정">
       <created>1684421616664</created>
@@ -291,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684653491023</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="item crud 수정">
+      <created>1684658113694</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684658113694</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +313,7 @@
     <MESSAGE value="api 수정" />
     <MESSAGE value="api 수정 2" />
     <MESSAGE value="api 수정 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="api 수정 3" />
+    <MESSAGE value="item crud 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="item crud 수정" />
   </component>
 </project>
