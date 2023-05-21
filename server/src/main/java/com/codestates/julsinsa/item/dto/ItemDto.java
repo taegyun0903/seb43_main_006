@@ -1,16 +1,9 @@
 package com.codestates.julsinsa.item.dto;
 
-import com.codestates.julsinsa.member.entity.Member;
-import com.codestates.julsinsa.review.dto.ReviewDto;
-import com.codestates.julsinsa.review.entity.Review;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.FetchType;
-import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ItemDto {
@@ -99,8 +92,8 @@ public class ItemDto {
     @Getter
     @Setter
     public static class Post {
-        private String title_Kor;
-        private String title_Eng;
+        private String titleKor;
+        private String titleEng;
         private String content;
         private List<String> categories;
         private int price;
@@ -110,8 +103,13 @@ public class ItemDto {
         private String aroma;
         private String taste;
         private String field;
-        private int discountRate;
+        private int discount_rate;
         private String profile;
         private int quantity;
+        private String detailedProfile;
+        private int sales;
+        private int review_count;
+        private int review_rating;
+
     }
 }

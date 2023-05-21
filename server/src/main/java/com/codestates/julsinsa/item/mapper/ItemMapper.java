@@ -30,5 +30,5 @@ public interface ItemMapper {
 
     Item itemPostItem(ItemDto.Post itemPost);
 
-    ItemPatchDto.ItemPatch itemToItemPatchDto(Item item);
+
 }

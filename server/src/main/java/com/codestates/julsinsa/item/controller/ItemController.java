@@ -141,16 +141,14 @@ public class ItemController {
         return new ResponseEntity(itemDtoResponse, HttpStatus.OK);
     }
     // 상품 정보 수정
-    @PatchMapping("/items/{item-id}")
-    public ResponseEntity updateItem(@PathVariable("item-id") @Positive long itemId, Item item) {
-        item = itemService.detailItems(itemId);
-        ItemPatchDto.ItemPatch itemPatch = mapper.itemToItemPatchDto(item);
-        itemService.updateItem(itemPatch);
+    @PatchMapping("/item/{item-id}")
+    public ResponseEntity updateItem(@PathVariable("item-id") @Positive long itemId, @RequestBody ItemPatchDto.ItemPatch requestBody) {
+        itemService.updateItem(requestBody, itemId);
         return new ResponseEntity(HttpStatus.OK);
     }
     // 상품 삭제
-    @DeleteMapping("/items/{item-id}")
-    public ResponseEntity deleteItem(@PathVariable("item-id") @Positive long itemId, Item item) {
+    @DeleteMapping("/item/{item-id}")
+    public ResponseEntity deleteItem(@PathVariable("item-id") @Positive long itemId) {
 
         itemService.deleteItem(itemId);
 

@@ -189,17 +189,18 @@ public class ItemService {
     }
 
     //  상품 정보 수정
-    public Item updateItem(ItemPatchDto.ItemPatch itemPatchDto) {
-        Item findItem = findVerifedItem(itemPatchDto.getId());
+    public Item updateItem(ItemPatchDto.ItemPatch itemPatchDto, Long itemId) {
+        Item findItem = findVerifedItem(itemId);
 
-        Optional.ofNullable(itemPatchDto.getKorName())
-                .ifPresent(korName -> findItem.setTitleKor(itemPatchDto.getKorName()));
-        Optional.ofNullable(itemPatchDto.getEngName())
-                .ifPresent(engName ->findItem.setTitleEng(itemPatchDto.getEngName()));
+        Optional.ofNullable(itemPatchDto.getTitleKor())
+                .ifPresent(korName -> findItem.setTitleKor(itemPatchDto.getTitleKor()));
+        Optional.ofNullable(itemPatchDto.getTitleEng())
+                .ifPresent(engName ->findItem.setTitleEng(itemPatchDto.getTitleEng()));
         Optional.ofNullable(itemPatchDto.getPrice())
                 .ifPresent(price -> findItem.setPrice(itemPatchDto.getPrice()));
         Optional.ofNullable(itemPatchDto.getQuantity())
                 .ifPresent(quantity -> findItem.setQuantity(itemPatchDto.getQuantity()));
+
 
         return itemRepository.save(findItem);
     }
