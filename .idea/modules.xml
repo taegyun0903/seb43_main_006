@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/seb43_main_006.iml" filepath="$PROJECT_DIR$/.idea/seb43_main_006.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jusinsa.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jusinsa.main.iml" />
->>>>>>> 005543570e5a5937dd26bb200a98cc53136f6054
     </modules>
   </component>
 </project>

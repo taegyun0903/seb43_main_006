@@ -11,7 +11,7 @@
         <module name="jusinsa.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11">
       <module name="sulsinsa" target="11" />
       <module name="sulsinsa.main" target="11" />
       <module name="sulsinsa.test" target="11" />

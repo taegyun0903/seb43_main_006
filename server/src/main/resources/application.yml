@@ -32,23 +32,23 @@ spring:
       client:
         registration:
           google:
-            clientId: 911444161086-3src60dn7goa37hqthsh1u1omvk5gil5.apps.googleusercontent.com
-            clientSecret: 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
-            redirect-uri: https://040e-124-111-225-247.ngrok-free.app/login/oauth2/code/google # 이건 주소 바뀔때마다 수정해야함
+            clientId: ${G_CLIENT_ID}
+            clientSecret: ${G_CLIENT_SECRET}
+            redirect-uri: http://ec2-3-39-189-208.ap-northeast-2.compute.amazonaws.com/login/oauth2/code/google # 이건 주소 바뀔때마다 수정해야함
             scope:
               - email
               - profile
           facebook:
-            client-id: 597724608969543
-            client-secret: 6d078dc371efd36c1a99e4cc74d3b018
+            client-id: ${F_CLIENT_ID}
+            client-secret: ${F_CLIENT_SECRET}
+            redirect-uri: http://ec2-3-39-189-208.ap-northeast-2.compute.amazonaws.com/login/oauth2/code/facebook
             scope:
               - email
               - public_profile
-
           kakao:
-            client-id: 7c67eb4ba631e8116081b968377e35d6
-            client-secret: NWGmTyHL3wzQB2SdDDYAAeJdEmtom3Lw
-            redirect-uri: https://9b00-124-111-225-247.ngrok-free.app/login/oauth2/code/kakao
+            client-id: ${C_CLIENT_ID}
+            client-secret: ${C_CLIENT_SECRET}
+            redirect-uri: http://ec2-3-39-189-208.ap-northeast-2.compute.amazonaws.com/login/oauth2/code/kakao
             authorization-grant-type: authorization_code
             client-authentication-method: POST
             client-name: Kakao
@@ -58,7 +58,6 @@ spring:
             token-uri: https://kauth.kakao.com/oauth/token
             user-info-uri: https://kapi.kakao.com/v2/user/me
             user-name-attribute: id
-
 
 logging:
   level:
@@ -77,8 +76,8 @@ mail:
   smtp:
     host: smtp.gmail.com
     port: 587
-    username: ku3026@gmail.com  # 민감한 정보는 시스템 환경 변수로..
-    password: fcsnjwkqwbmqbjbu  # 민감한 정보는 시스템 환경 변수로..
+    username: ${EMAIL_USERNAME}  # 민감한 정보는 시스템 환경 변수로..
+    password: ${EMAIL_PASSWORD}  # 민감한 정보는 시스템 환경 변수로..
     auth: true
     starttls:
       enable: true
@@ -97,19 +96,17 @@ server:
 
 
 jwt:
-  key: kevin12341234123412341234123412341234123412341234123412341234
+  key: ${JWT_SECRET_KEY}
   access-token-expiration-minutes: 30 #30분.
   refresh-token-expiration-minutes: 420 # 420분
 
 cloud:
   aws:
-    credentials.access-key: AKIAW5A3TF4PZMEILIEF
-    credentials.secret-key: 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
-    s3.bucket: codepipeline-ap-northeast-2-434800846642
+    credentials.access-key: ${S3_ACCESS_KEY}
+    credentials.secret-key: ${S3_SECRET_KEY}
+    s3.bucket: jusinsa-project
     region.static: ap-northeast-2
     stack.auto: false
 
 toss:
-  secret-key: test_sk_YoEjb0gm23P1O1BQ7WgVpGwBJn5e
-
-
+  secret-key: sdadsaw
