@@ -1,6 +1,5 @@
 package com.codestates.julsinsa.item.controller;
 
-import com.codestates.julsinsa.cart.dto.ItemCartDto;
 import com.codestates.julsinsa.global.dto.MultiResponseDto;
 import com.codestates.julsinsa.global.dto.SingleResponseDto;
 import com.codestates.julsinsa.global.utils.UriCreator;
@@ -57,7 +56,6 @@ public class ItemController {
 
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
-
 
     @GetMapping
     public ResponseEntity getItemByCategories(@Positive @RequestParam int page,
@@ -165,13 +163,13 @@ public class ItemController {
     }
 
 
-    // 특정 상품 상세 조회
-    @GetMapping("/item/{item-id}")
-    public ResponseEntity detailItems (@PathVariable("item-id") @Positive long itemId, Item item) {
-        item = itemService.detailItems(itemId);
-        ItemDto.Response itemDtoResponse = mapper.itemToItemResponseDto(item);
-        return new ResponseEntity(itemDtoResponse, HttpStatus.OK);
-    }
+//    // 특정 상품 상세 조회
+//    @GetMapping("/item/{item-id}")
+//    public ResponseEntity detailItems (@PathVariable("item-id") @Positive long itemId, Item item) {
+//        item = itemService.detailItems(itemId);
+//        ItemDto.Response itemDtoResponse = mapper.itemToItemResponseDto(item);
+//        return new ResponseEntity(itemDtoResponse, HttpStatus.OK);
+//    }
     // 상품 정보 수정
     @PatchMapping("/item/{item-id}")
     public ResponseEntity updateItem(@PathVariable("item-id") @Positive long itemId, @RequestBody ItemPatchDto.ItemPatch requestBody) {
