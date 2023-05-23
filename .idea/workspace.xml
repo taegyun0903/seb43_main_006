@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.23 00 : 28">
+    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.23 13:59">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ImageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ImageInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/payment/service/PaymentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <recent name="C:\Users\taegy\seb43_main_006\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.jusinsaApplication">
+  <component name="RunManager" selected="Gradle.server [build]">
     <configuration name="server [bootRunMainClassName]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -234,7 +233,7 @@
       <workItem from="1684418428425" duration="894000" />
       <workItem from="1684468568865" duration="100000" />
       <workItem from="1684645238084" duration="23358000" />
-      <workItem from="1684816717473" duration="1143000" />
+      <workItem from="1684816717473" duration="2846000" />
     </task>
     <task id="LOCAL-00001" summary="test 오류코드 삭제, appspec.yml, buildspec.yml 파일 위치이동,&#10;yml 파일 수정">
       <created>1684421616664</created>
@@ -355,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684769343054</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="dev merge 05.23 13:59">
+      <created>1684817989888</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684817989888</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +396,8 @@
     <MESSAGE value="dev merge 05.22" />
     <MESSAGE value="dev merge 05.23 00 : 03" />
     <MESSAGE value="dev merge 05.23 00 : 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.23 00 : 28" />
+    <MESSAGE value="dev merge 05.23 13:59" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.23 13:59" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

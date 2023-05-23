@@ -18,8 +18,7 @@ import java.util.Base64;
 @RequiredArgsConstructor
 public class PaymentService {
 
-    @Value("${toss.secret-key}")
-    private String SECRET_KEY; // "test_sk_YoEjb0gm23P1O1BQ7WgVpGwBJn5e";
+    private String SECRET_KEY = "test_sk_YoEjb0gm23P1O1BQ7WgVpGwBJn5e"; // "test_sk_YoEjb0gm23P1O1BQ7WgVpGwBJn5e";
 
     public void paymentConfirm(Payment payment) {
 
