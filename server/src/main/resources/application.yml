@@ -34,8 +34,8 @@ spring:
               - email
               - profile
           facebook:
-            client-id: 597724608969543
-            client-secret: 6d078dc371efd36c1a99e4cc74d3b018
+            client-id: 192664940391580
+            client-secret: 2924e285e2333cd422f060e21a2f31a5
             redirect-uri: http://ec2-13-124-60-159.ap-northeast-2.compute.amazonaws.com:8080/login/oauth2/code/facebook
             scope:
               - email
