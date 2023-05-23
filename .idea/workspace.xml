@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.23 00 : 03">
+    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.23 00 : 28">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ImageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/image/entity/ImageInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +76,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1684645386" />
+                    <option name="lastUsedInstant" value="1684817654" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev" />
-                    <option name="lastUsedInstant" value="1684645290" />
+                    <option name="lastUsedInstant" value="1684817631" />
                   </RecentBranch>
                 </list>
               </option>
@@ -214,10 +216,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.server [build]" />
+        <item itemvalue="Spring Boot.jusinsaApplication" />
+        <item itemvalue="Gradle.server [buildDependents]" />
         <item itemvalue="Gradle.server [bootRunMainClassName]" />
-        <item itemvalue="Gradle.server [buildDependents]" />
-        <item itemvalue="Gradle.server [build]" />
-        <item itemvalue="Gradle.server [buildDependents]" />
+        <item itemvalue="Spring Boot.jusinsaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +234,7 @@
       <workItem from="1684418428425" duration="894000" />
       <workItem from="1684468568865" duration="100000" />
       <workItem from="1684645238084" duration="23358000" />
+      <workItem from="1684816717473" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="test 오류코드 삭제, appspec.yml, buildspec.yml 파일 위치이동,&#10;yml 파일 수정">
       <created>1684421616664</created>
@@ -345,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684767951057</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dev merge 05.23 00 : 28">
+      <created>1684769343054</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769343054</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,6 +389,18 @@
     <MESSAGE value="api test 2" />
     <MESSAGE value="dev merge 05.22" />
     <MESSAGE value="dev merge 05.23 00 : 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.23 00 : 03" />
+    <MESSAGE value="dev merge 05.23 00 : 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.23 00 : 28" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/jusinsaApplication.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
