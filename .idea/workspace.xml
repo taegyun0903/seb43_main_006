@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.23 17 : 54">
+    <list default="true" id="dde31017-fb2f-4b94-a4d3-981f21a1a5ab" name="변경" comment="dev merge 05.24 10:41">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/AwsS3Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/config/AwsS3Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/jusinsaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/jusinsaApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1684817654" />
+                    <option name="lastUsedInstant" value="1684892314" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev" />
@@ -132,7 +130,7 @@
       <recent name="C:\Users\taegy\seb43_main_006\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.jusinsaApplication">
+  <component name="RunManager" selected="Gradle.server [build]">
     <configuration name="server [bootRunMainClassName]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -392,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684832122725</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="dev merge 05.24 10:41">
+      <created>1684892484866</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684892484867</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,17 +437,7 @@
     <MESSAGE value="dev merge 05.23 15:41" />
     <MESSAGE value="dev merge 05.23 16 : 19" />
     <MESSAGE value="dev merge 05.23 17 : 54" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.23 17 : 54" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/com/codestates/julsinsa/jusinsaApplication.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="dev merge 05.24 10:41" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev merge 05.24 10:41" />
   </component>
 </project>
