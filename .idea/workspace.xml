@@ -219,7 +219,7 @@
         <item itemvalue="Spring Boot.jusinsaApplication" />
         <item itemvalue="Gradle.server [buildDependents]" />
         <item itemvalue="Gradle.server [bootRunMainClassName]" />
-        <item itemvalue="Spring Boot.jusinsaApplication" />
+        <item itemvalue="Gradle.server [build]" />
       </list>
     </recent_temporary>
   </component>
