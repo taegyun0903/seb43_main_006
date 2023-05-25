@@ -107,7 +107,7 @@ cloud:
   aws:
     credentials.access-key: AKIAREHUI6VAPN4AHPOY
     credentials.secret-key: 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
-    s3.bucket: codepipeline-ap-northeast-2-683974989686
+    s3.bucket: mejucli
     region.static: ap-northeast-2
     stack.auto: false
 
