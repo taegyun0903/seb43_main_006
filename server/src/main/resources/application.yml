@@ -105,9 +105,9 @@ jwt:
 
 cloud:
   aws:
-    credentials.access-key: AKIAREHUI6VAPN4AHPOY
-    credentials.secret-key: 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
-    s3.bucket: mejucli
+    credentials.access-key: AKIATWIPAY5W5VPDCG74
+    credentials.secret-key: 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
+    s3.bucket: jusinsa-project
     region.static: ap-northeast-2
     stack.auto: false
 
