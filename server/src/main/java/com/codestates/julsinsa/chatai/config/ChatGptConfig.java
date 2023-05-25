@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 public class ChatGptConfig {
     public static final String AUTHORIZATION = "Authorization";
     public static final String BEARER = "Bearer ";
-    public static final String API_KEY = "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";
+    public static final String API_KEY = "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";
     public static final String MODEL = "text-davinci-003";
     public static final Integer MAX_TOKEN = 300;
     public static final Double TEMPERATURE = 0.0;
