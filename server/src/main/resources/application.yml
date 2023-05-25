@@ -116,4 +116,4 @@ toss:
 
 
 api:
-  key: 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
+  key: ${GPT_SECRET}
